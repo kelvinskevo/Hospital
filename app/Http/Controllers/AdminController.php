@@ -93,4 +93,10 @@ class AdminController extends Controller
         $doctor->save();
         return redirect()->back();
     }
+
+    public function emailview($id)
+    {
+
+        return view('admin.emailview');
+    }
 }
